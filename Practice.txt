@@ -1,0 +1,11 @@
+Practice
+| Dạng                                   | Mô tả                                            | Ví dụ trường dữ liệu chính                             |
+| -------------------------------------- | ------------------------------------------------ | ------------------------------------------------------ |
+| **Multiple Choice (Trắc nghiệm)**      | 1 câu hỏi + nhiều đáp án, chọn đúng 1 hoặc nhiều | question, options[], correctAnswers[], explanation     |
+| **Fill in the Blank (Điền chỗ trống)** | Cho 1 câu có blank, user điền đáp án             | sentenceWithBlank, correctAnswer, hint                 |
+| **Matching (Nối cặp)**                 | Nối hai danh sách (ví dụ từ - nghĩa)             | leftItems[], rightItems[], correctPairs[]              |
+| **Reordering (Sắp xếp câu / đoạn)**    | Kéo thả để sắp xếp đúng thứ tự                   | items[], correctOrder[]                                |
+| **Listening Practice**                 | Nghe audio và chọn/điền đáp án                   | audioUrl, transcript, question, correctAnswer          |
+| **Reading Comprehension**              | Đọc đoạn văn + trả lời câu hỏi                   | passageText, questions[] (có thể dùng multiple-choice) |
+| **Vocabulary Flashcards / Quiz**       | Học + kiểm tra từ vựng theo bộ từ                | word, meaning, example, pronunciation, correctAnswer   |
+| **Error Correction**                   | Câu sai cần sửa                                  | sentence, correctSentence, explanation                 |
